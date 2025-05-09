@@ -175,7 +175,7 @@ namespace WindowsFormsApp1
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
-            throw new System.NotImplementedException();
+          
         }
 
         private void flowLayoutPanel3_Paint_1(object sender, PaintEventArgs e)
