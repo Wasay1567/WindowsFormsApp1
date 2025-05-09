@@ -79,7 +79,7 @@ namespace WindowsFormsApp1
             adp1.Fill(d2);
             con.Close();
 
-            dataGridView1.DataSource = d2.Tables[0];
+            //dataGridView1.DataSource = d2.Tables[0];
         }
 
         private void label1_Click(object sender, EventArgs e)
