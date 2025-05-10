@@ -102,9 +102,9 @@ namespace WindowsFormsApp1
             richTextBox1.Clear();
             foreach (DataRow row in messages.Tables[0].Rows)
             {
-                string sender = Convert.ToInt32(row["SenderID"]) == id ? "You" : selectedUsername;
+                string senderName = Convert.ToInt32(row["SenderID"]) == id ? "You" : selectedUsername;
                 string message = row["Message"].ToString();
-                richTextBox1.AppendText($"{sender}: {message}\n");
+                richTextBox1.AppendText($"{senderName}: {message}\n");
             }
         }
 
